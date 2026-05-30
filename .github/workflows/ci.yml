@@ -21,5 +21,5 @@ jobs:
       - name: Force Failure
         run: (exit 0)
 
-      - name: Check Go Version
-        run: go version
+      - name: Test on CI
+        run: go test ./...
